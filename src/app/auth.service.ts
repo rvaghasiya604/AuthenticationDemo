@@ -10,7 +10,7 @@ import { Video } from './video';
 })
 export class AuthService {
 
-  url = "http://localhost:3000/api/";
+  url = "";
 
   isLoading:BehaviorSubject<boolean> = new BehaviorSubject<boolean>(true);
   constructor(private _http: HttpClient, private _router: Router) { }
